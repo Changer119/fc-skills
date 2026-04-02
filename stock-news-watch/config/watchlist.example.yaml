@@ -1,0 +1,20 @@
+# 股票信息披露监控列表
+# 将此文件复制为 watchlist.yaml 并填入你要监控的股票
+
+stocks:
+  - code: "00700"
+    name: "腾讯控股"
+    market: hk
+
+  - code: "09988"
+    name: "阿里巴巴-W"
+    market: hk
+
+  # 未来支持（当前仅实现港股）
+  # - code: "600519"
+  #   name: "贵州茅台"
+  #   market: a_share
+  #
+  # - code: "AAPL"
+  #   name: "Apple"
+  #   market: us
