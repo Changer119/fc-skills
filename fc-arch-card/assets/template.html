@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: {{BG_COLOR}};
+      font-family: {{FONT_FAMILY}};
+      min-height: 100vh;
+    }
+    .diagram-wrapper {
+      padding: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .mermaid {
+      width: 100%;
+      max-width: 1080px;
+    }
+  </style>
+</head>
+<body>
+  <div class="diagram-wrapper">
+    <pre class="mermaid">
+%%{init: {{MERMAID_THEME_CONFIG}}}%%
+{{MERMAID_DSL}}
+    </pre>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      securityLevel: 'loose',
+      theme: '{{MERMAID_THEME}}'
+    });
+  </script>
+</body>
+</html>
