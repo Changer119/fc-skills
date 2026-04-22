@@ -1,0 +1,5 @@
+[    6606ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: e40ee6bae5} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-BL8bstaL.js:1
+[    7904ms] [ERROR] Not signed in with the identity provider. @ https://claude.ai/login:0
+[    8119ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-BL8bstaL.js:1
+[   13030ms] [ERROR] Access to fetch at 'https://a-cdn.claude.ai/params/sri/EEA5F558-D6AC-4C03-B678-AABF639EE69A' from origin 'https://claude.ai' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://claude.ai/login:0
+[   13031ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://a-cdn.claude.ai/params/sri/EEA5F558-D6AC-4C03-B678-AABF639EE69A:0

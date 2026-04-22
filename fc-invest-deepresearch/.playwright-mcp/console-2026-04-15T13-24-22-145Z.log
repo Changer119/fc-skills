@@ -1,0 +1,9 @@
+[    1041ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: e40ee6bae5} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-BL8bstaL.js:1
+[    1708ms] [WARNING] [GSI_LOGGER]: google.accounts.id.initialize() is called multiple times. This could cause unexpected behavior and only the last initialized instance will be used. @ https://accounts.google.com/gsi/client:84
+[    1711ms] [ERROR] Not signed in with the identity provider. @ https://claude.ai/login:0
+[    1713ms] [ERROR] Only one navigator.credentials.get request may be outstanding at one time. @ https://claude.ai/login:0
+[    1715ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NotAllowedError: Only one navigator.credentials.get request may be outstanding at one time. @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-BL8bstaL.js:1
+[    3482ms] [ERROR] Access to fetch at 'https://a-cdn.claude.ai/params/sri/EEA5F558-D6AC-4C03-B678-AABF639EE69A' from origin 'https://claude.ai' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://claude.ai/login:0
+[    3482ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://a-cdn.claude.ai/params/sri/EEA5F558-D6AC-4C03-B678-AABF639EE69A:0
+[    8398ms] [WARNING] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web @ https://js.intercomcdn.com/frame-modern.b228b3c9.js:0
+[   35302ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/index-BL8bstaL.js:1
