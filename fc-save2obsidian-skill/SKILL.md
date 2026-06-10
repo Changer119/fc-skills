@@ -1,7 +1,7 @@
 ---
 name: fc-save2obsidian-skill
 description: |
-  将当前 Claude Code 会话中最近若干轮对话内容，保存为 Markdown 笔记写入 Obsidian SecondBrain 知识库。
+  将当前 Claude Code 会话中最近若干轮对话内容，保存为 Markdown 笔记写入 Obsidian second-brain 知识库。
   触发场景：用户说"保存到obsidian"、"存到知识库"、"把这次对话记录下来"、"把刚才的结果存一下"等。
   支持参数 N：保存最近 N 轮对话（一轮 = 一次用户提问 + 一次 Claude 回复），不传则默认 N=1（仅最近一轮）。
   示例：/fc-save2obsidian-skill 、 /fc-save2obsidian-skill 3
@@ -14,7 +14,7 @@ metadata:
 
 # fc-save2obsidian-skill - 保存对话到 Obsidian
 
-将当前会话最近 N 轮对话整理为一篇 Markdown 笔记，通过 `obsidian` CLI 写入 Obsidian SecondBrain vault。
+将当前会话最近 N 轮对话整理为一篇 Markdown 笔记，通过 `obsidian` CLI 写入 Obsidian second-brain vault。
 
 ## 使用方式
 
@@ -71,7 +71,7 @@ source: claude-code-session
 
 ### 4. 写入 Obsidian
 
-默认写入 `~/Obsidian/SecondBrain/Claude会话记录/` 目录。
+默认写入 `~/Obsidian/second-brain/Claude会话记录/` 目录。
 
 写入前先检查同名文件是否已存在：
 
